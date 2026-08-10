@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+
+  <title>KittCodex | Desarrollo Web y Soluciones Digitales</title>
+  <meta name="description" content="Diseñamos y desarrollamos landing pages modernas, rápidas y orientadas a generar clientes para negocios y empresas." />
+  <meta name="theme-color" content="#1E1B4B" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="KittCodex" />
+  <link rel="canonical" href="https://kittcodex.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="KittCodex" />
+  <meta property="og:title" content="KittCodex | Desarrollo Web y Soluciones Digitales" />
+  <meta property="og:description" content="Diseñamos y desarrollamos landing pages modernas, rápidas y orientadas a generar clientes para negocios y empresas." />
+  <meta property="og:url" content="https://kittcodex.com/" />
+  <meta property="og:image" content="https://kittcodex.com/assets/img/logo.png" />
+  <meta property="og:locale" content="es_PE" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="KittCodex | Desarrollo Web y Soluciones Digitales" />
+  <meta name="twitter:description" content="Diseñamos y desarrollamos landing pages modernas, rápidas y orientadas a generar clientes para negocios y empresas." />
+  <meta name="twitter:image" content="https://kittcodex.com/assets/img/logo.png" />
+
+  <!-- Tailwind CSS (compilado) -->
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "KittCodex",
+    "description": "Diseñamos y desarrollamos landing pages modernas, rápidas y orientadas a generar clientes.",
+    "url": "https://kittcodex.com/",
+    "logo": "https://kittcodex.com/assets/img/logo.png",
+    "priceRange": "S/ 400 - S/ 700",
+    "areaServed": "PE",
+    "knowsLanguage": ["es"]
+  }
+  </script>
+</head>
+<body class="bg-slate-950 font-sans text-slate-200 antialiased">
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <!-- ===== Sprite de íconos SVG ===== -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-palette" viewBox="0 0 24 24"><path d="M12 22a10 10 0 1 1 10-10c0 2.5-1.5 3.2-3.4 3.2H16a2.1 2.1 0 0 0-1.6 3.4c.6.7.4 2.4-1.6 2.4H12z"/><path d="M7.5 12.5h.01M12 7.5h.01M17 12.5h.01"/></symbol>
+    <symbol id="icon-gauge" viewBox="0 0 24 24"><path d="M4.5 19a8.5 8.5 0 1 1 15 0"/><path d="M12 14l4-4"/><path d="M12 14.5h.01"/></symbol>
+    <symbol id="icon-devices" viewBox="0 0 24 24"><rect x="2" y="5" width="15" height="11" rx="2"/><path d="M6 19h7"/><rect x="18.5" y="7" width="4" height="9" rx="1"/></symbol>
+    <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="5.5"/><path d="M12 12h.01"/></symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24"><path d="M21 11.7a8.5 8.5 0 0 1-8.5 8.5c-1.5 0-2.9-.4-4.2-1L3 20l1-5.3a8.5 8.5 0 1 1 17-3z"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24"><path d="M8.5 6.5 3 12l5.5 5.5"/><path d="M15.5 6.5 21 12l-5.5 5.5"/><path d="M13.5 3.5 10.5 20.5"/></symbol>
+    <symbol id="icon-rocket" viewBox="0 0 24 24"><path d="M12 2c3.4 1.3 5.8 4.3 6.2 9l-3.2 3H8.9l-3.1-3C6.2 6.3 8.6 3.3 12 2z"/><circle cx="12" cy="9" r="1.6"/><path d="M9.5 14.5 8 21M14.5 14.5 16 21M8.8 16.5l-2.8 1M15.2 16.5l2.8 1"/></symbol>
+    <symbol id="icon-browser" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8.5h18"/><path d="M6.5 6.5h.01M9 6.5h.01"/></symbol>
+    <symbol id="icon-cart" viewBox="0 0 24 24"><path d="M3 3h2l2.4 12.3a1 1 0 0 0 1 .7h8.6a1 1 0 0 0 1-.7L20.5 7H6"/><circle cx="9" cy="20" r="1.3"/><circle cx="17.5" cy="20" r="1.3"/></symbol>
+    <symbol id="icon-app" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><path d="M13.5 20.5l2 2 4.5-4.5"/></symbol>
+    <symbol id="icon-edit" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="icon-folder" viewBox="0 0 24 24"><path d="M3 7.5a2 2 0 0 1 2-2h4.5l2 2H19a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="icon-close-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M14.5 9.5l-5 5M9.5 9.5l5 5"/></symbol>
+    <symbol id="icon-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.5 2.5 5.5-6"/></symbol>
+    <symbol id="icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v5"/><path d="M12 7.5h.01"/></symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a15 15 0 0 1 0 19 15 15 0 0 1 0-19z"/></symbol>
+    <symbol id="icon-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-2.6-6.3L21 8"/><path d="M21 3v5h-5"/></symbol>
+    <symbol id="icon-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8L21.5 18.5l-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M22 16.9v2.8a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.2 4.2 2 2 0 0 1 4.2 2H7a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.1a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 1.9z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M2.5 8l9.5 6 9.5-6"/></symbol>
+    <symbol id="icon-send" viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="icon-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><path d="M17.7 6.3h.01"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></symbol>
+    <symbol id="icon-tiktok" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"/></symbol>
+    <symbol id="icon-cat" viewBox="0 0 24 24"><path d="M8.6 4.6 6.1 1.6v3.9L3 3.1V7.6c0 4.9 3.9 8.4 9 8.4s9-3.5 9-8.4V3.1l-3.1 2.4v-3.9l-2.5 3c-1-.5-2.2-.7-3.5-.7s-2.5.2-3.3.7z"/></symbol>
+  </svg>
+
+  <!-- ===== Header ===== -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="#inicio" class="flex items-center gap-2" aria-label="KittCodex — Inicio">
+        <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600/15">
+          <img src="assets/img/logosf.png" alt="Logotipo de KittCodex" width="32" height="32" />
+        </span>
+        <span class="font-display text-xl font-bold tracking-tight text-white">Kitt<span class="text-indigo-400">Codex</span></span>
+      </a>
+
+      <nav class="hidden lg:flex" aria-label="Principal">
+        <ul class="flex items-center gap-6">
+          <li><a href="#inicio" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="inicio">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="servicios">Servicios</a></li>
+          <li><a href="#proyectos" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="proyectos">Proyectos</a></li>
+          <li><a href="#planes" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="planes">Planes</a></li>
+          <li><a href="#proceso" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="proceso">Proceso</a></li>
+          <li><a href="#faq" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="faq">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link text-sm font-medium text-slate-300 transition hover:text-white" data-nav data-target="contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#contacto" class="hidden items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-500 lg:inline-flex">Solicitar cotización</a>
+        <button id="menu-toggle" type="button" class="flex h-10 w-10 items-center justify-center rounded-lg border border-white/15 text-slate-200 transition hover:bg-white/5 lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+          <svg class="icon icon-menu-open h-5 w-5"><use href="#icon-menu" /></svg>
+          <svg class="icon icon-menu-close h-5 w-5 hidden"><use href="#icon-x" /></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="lg:hidden" hidden>
+      <nav aria-label="Móvil">
+        <ul class="space-y-1 px-6 pb-6 pt-2">
+          <li><a href="#inicio" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="inicio">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="servicios">Servicios</a></li>
+          <li><a href="#proyectos" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="proyectos">Proyectos</a></li>
+          <li><a href="#planes" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="planes">Planes</a></li>
+          <li><a href="#proceso" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="proceso">Proceso</a></li>
+          <li><a href="#faq" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="faq">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link mobile-link block rounded-xl px-4 py-3 text-base font-medium text-slate-200 transition hover:bg-white/5" data-nav data-target="contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="px-6 pb-8">
+        <a href="#contacto" class="mobile-cta flex w-full items-center justify-center rounded-xl bg-indigo-600 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-indigo-500">Solicitar cotización</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section id="inicio" class="relative overflow-hidden scroll-mt-24 bg-slate-950">
+      <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+      <div class="absolute -top-24 left-1/4 h-96 w-96 rounded-full bg-indigo-600/20 blur-3xl" aria-hidden="true"></div>
+      <div class="absolute right-0 top-1/3 h-80 w-80 rounded-full bg-violet-600/10 blur-3xl" aria-hidden="true"></div>
+
+      <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-4 pb-20 pt-32 sm:px-6 lg:grid-cols-2 lg:px-8 lg:pb-28">
+        <div class="text-center lg:text-left">
+          <span class="reveal inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-200">
+            <span class="anim-blink h-2 w-2 rounded-full bg-emerald-400" aria-hidden="true"></span>
+            <span>Landing pages diseñadas para convertir</span>
+          </span>
+          <h1 class="reveal mt-6 font-display text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl" style="transition-delay:.1s">
+            <span>Tu negocio merece una</span><br />
+            <span class="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">presencia digital profesional.</span>
+          </h1>
+          <p class="reveal mx-auto mt-6 max-w-xl text-lg leading-relaxed text-slate-400 lg:mx-0" style="transition-delay:.2s">Diseñamos landing pages modernas, rápidas y enfocadas en generar oportunidades para tu negocio.</p>
+          <div class="reveal mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start" style="transition-delay:.3s">
+            <a href="#contacto" class="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-indigo-500">Cotizar mi proyecto</a>
+            <a href="#planes" class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-white/10">Ver planes</a>
+          </div>
+          <ul class="reveal mt-9 flex flex-wrap justify-center gap-x-6 gap-y-3 lg:justify-start" style="transition-delay:.4s">
+            <li class="flex items-center gap-2 text-sm text-slate-300"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><span>Diseño a medida</span></li>
+            <li class="flex items-center gap-2 text-sm text-slate-300"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><span>Carga rápida</span></li>
+            <li class="flex items-center gap-2 text-sm text-slate-300"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><span>SEO incluido</span></li>
+          </ul>
+        </div>
+
+        <div class="reveal relative mx-auto w-full max-w-md" style="transition-delay:.2s">
+
+          <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900/80 shadow-2xl shadow-indigo-950/60">
+            <div class="flex items-center gap-2 border-b border-white/10 px-4 py-3">
+              <span class="h-3 w-3 rounded-full bg-red-500/80" aria-hidden="true"></span>
+              <span class="h-3 w-3 rounded-full bg-yellow-500/80" aria-hidden="true"></span>
+              <span class="h-3 w-3 rounded-full bg-emerald-500/80" aria-hidden="true"></span>
+              <p class="ml-3 truncate font-mono text-xs text-slate-400">index.tsx — kittcodex.com</p>
+            </div>
+            <div class="grid grid-cols-[92px_1fr]">
+              <div class="border-r border-white/10 p-3">
+                <p class="font-mono text-xs font-semibold text-indigo-300">components</p>
+                <ul class="mt-2 space-y-1 font-mono text-xs text-slate-500">
+                  <li class="rounded bg-white/5 px-2 py-1 text-slate-200">main.tsx</li>
+                  <li class="px-2 py-1">styles.css</li>
+                  <li class="px-2 py-1">seo.ts</li>
+                  <li class="px-2 py-1">deploy.yml</li>
+                </ul>
+              </div>
+              <div class="space-y-1.5 p-4 font-mono text-xs leading-relaxed">
+                <p class="text-slate-500">// Landing creada con amor y café — KittCodex</p>
+                <p class="text-indigo-300">crearLanding({</p>
+                <p class="pl-4 text-emerald-300">diseño: 'a medida',</p>
+                <p class="pl-4 text-emerald-300">velocidad: 98/100,</p>
+                <p class="pl-4 text-emerald-300">seo: 'optimizado',</p>
+                <p class="text-slate-400">})</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 border-t border-white/10 px-4 py-2.5 font-mono text-xs text-slate-400">
+              <span class="text-emerald-400" aria-hidden="true">❯</span>
+              <span class="truncate">deploy listo en ~7 días · listo para vender</span>
+              <span class="anim-blink text-slate-200" aria-hidden="true">▍</span>
+            </div>
+          </div>
+
+          <span class="anim-floaty absolute -right-6 top-10 hidden items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/90 px-3 py-1.5 text-xs font-medium text-slate-200 shadow-lg backdrop-blur sm:flex" style="animation-delay:.5s"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3 w-3"><use href="#icon-check" /></svg></span><span>Diseño a medida</span></span>
+          <span class="anim-floaty absolute -left-8 bottom-20 hidden items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/90 px-3 py-1.5 text-xs font-medium text-slate-200 shadow-lg backdrop-blur sm:flex" style="animation-delay:1.4s"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3 w-3"><use href="#icon-check" /></svg></span><span>Carga rápida</span></span>
+          <span class="anim-floaty absolute -top-8 left-1/4 hidden items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/90 px-3 py-1.5 text-xs font-medium text-slate-200 shadow-lg backdrop-blur sm:flex" style="animation-delay:2.2s"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3 w-3"><use href="#icon-check" /></svg></span><span>SEO incluido</span></span>
+          <span class="anim-floaty absolute -bottom-5 right-8 hidden items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/90 px-3 py-1.5 text-xs font-medium text-slate-200 shadow-lg backdrop-blur sm:flex" style="animation-delay:.9s"><span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3 w-3"><use href="#icon-check" /></svg></span><span>Deploy en 7 días</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Propuesta de valor ===== -->
+    <section class="bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">¿Por qué elegirnos?</h2>
+          <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Todo lo que tu negocio necesita para destacar y vender más, en un solo lugar.</p>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" data-render="valueProps"></div>
+      </div>
+    </section>
+
+    <!-- ===== Servicios ===== -->
+    <section id="servicios" class="relative scroll-mt-24 overflow-hidden bg-slate-950 py-20 lg:py-24">
+      <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+      <div class="absolute -top-24 right-0 h-72 w-72 rounded-full bg-violet-600/15 blur-3xl" aria-hidden="true"></div>
+      <div class="absolute -left-20 bottom-0 h-72 w-72 rounded-full bg-indigo-600/15 blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-16 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">Servicios</h2>
+          <p class="reveal mt-4 text-lg text-slate-400" style="transition-delay:.1s">Landing pages enfocadas en convertir visitantes en clientes.</p>
+        </div>
+        <div class="reveal">
+          <div class="tab-panel" role="tabpanel" id="service-panel" data-render="servicePanel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Proyectos ===== -->
+    <section id="proyectos" class="scroll-mt-24 bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Proyectos demostrativos</h2>
+          <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Una muestra de lo que podemos crear para distintos tipos de negocios.</p>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-render="projects"></div>
+      </div>
+    </section>
+
+    <!-- ===== Planes ===== -->
+    <section id="planes" class="relative scroll-mt-24 overflow-hidden bg-slate-950 py-20 lg:py-24">
+      <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+      <div class="absolute left-1/2 top-0 h-72 w-[36rem] -translate-x-1/2 rounded-full bg-indigo-600/15 blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">Planes</h2>
+          <p class="reveal mt-4 text-lg text-slate-400" style="transition-delay:.1s">Precios claros y servicios definidos. Elige el plan que mejor se adapte a tu negocio.</p>
+        </div>
+        <div class="grid items-stretch gap-8 lg:grid-cols-3" data-render="plans"></div>
+        <p class="reveal mt-10 text-center text-sm text-slate-400">Precios en soles peruanos (S/). La infraestructura web (S/ 400/año) es un servicio independiente del desarrollo.</p>
+      </div>
+    </section>
+
+    <!-- ===== Infraestructura ===== -->
+    <section id="infraestructura" class="scroll-mt-24 bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <div class="max-w-2xl">
+              <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Infraestructura Web</h2>
+              <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Mantén tu sitio publicado, seguro y administrado durante todo el año.</p>
+            </div>
+            <p class="reveal mt-6 text-slate-600" style="transition-delay:.15s">Servicio independiente del desarrollo de la landing page. Incluye todo lo necesario para que tu sitio esté siempre en línea, protegido y correctamente administrado.</p>
+            <ul class="reveal mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" style="transition-delay:.2s" data-render="infraFeatures"></ul>
+            <p class="reveal mt-6 flex items-start gap-2 text-sm text-slate-500" style="transition-delay:.25s">
+              <svg class="icon mt-0.5 text-indigo-500"><use href="#icon-info" /></svg>
+              <span>Dominio registrado a nombre del cliente y hosting administrado por KittCodex durante el período contratado.</span>
+            </p>
+          </div>
+          <div class="reveal relative" style="transition-delay:.15s">
+            <div class="relative overflow-hidden rounded-3xl bg-slate-950 p-8 shadow-xl shadow-indigo-950/30 sm:p-10">
+              <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+              <div class="absolute -top-10 left-1/2 h-40 w-40 -translate-x-1/2 rounded-full bg-indigo-600/25 blur-3xl" aria-hidden="true"></div>
+              <span class="anim-floaty absolute -right-3 -top-4 z-10 flex items-center gap-1.5 rounded-full border border-white/10 bg-slate-900/90 px-3 py-1.5 text-xs font-medium text-emerald-300 shadow-lg backdrop-blur" style="animation-delay:.6s">
+                <svg class="icon h-3.5 w-3.5"><use href="#icon-shield" /></svg>
+                Garantía incluida
+              </span>
+              <div class="relative text-center">
+                <span class="inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-200">
+                  <span class="anim-blink h-1.5 w-1.5 rounded-full bg-emerald-400" aria-hidden="true"></span>
+                  Infraestructura administrada
+                </span>
+                <p class="mt-5 text-sm font-semibold uppercase tracking-widest text-indigo-300">Infraestructura Web</p>
+                <div class="mt-3 flex items-baseline justify-center gap-1 text-white">
+                  <span class="text-lg">S/</span>
+                  <span class="text-6xl font-bold">400</span>
+                  <span class="text-base text-slate-400">/ año</span>
+                </div>
+                <p class="mt-4 text-sm text-slate-400">Tu sitio siempre en línea: hosting, dominio y seguridad administrados por nosotros.</p>
+                <ul class="mx-auto mt-7 max-w-xs space-y-2.5 text-left text-sm text-slate-300">
+                  <li class="flex items-start gap-2.5"><span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon"><use href="#icon-check" /></svg></span><span>Dominio a nombre del cliente</span></li>
+                  <li class="flex items-start gap-2.5"><span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon"><use href="#icon-check" /></svg></span><span>Renovación y monitoreo anual</span></li>
+                  <li class="flex items-start gap-2.5"><span class="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon"><use href="#icon-check" /></svg></span><span>SSL y copias de seguridad</span></li>
+                </ul>
+                <a class="wa-infra mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3.5 text-base font-semibold text-white transition hover:bg-[#1ebe5b]" href="#" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg>
+                  <span>Cotizar por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Mantenimiento ===== -->
+    <section id="mantenimiento" class="scroll-mt-24 bg-slate-50 py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Mantenimiento opcional</h2>
+          <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Tu sitio se mantiene fresco, seguro y optimizado mes a mes.</p>
+        </div>
+        <div class="grid gap-8 lg:grid-cols-2" data-render="maintenance"></div>
+        <p class="reveal mt-8 flex items-start justify-center gap-2 text-sm text-slate-500">
+          <svg class="icon mt-0.5 text-indigo-500"><use href="#icon-info" /></svg>
+          <span>Puedes contratar mantenimiento en cualquier momento, incluso si tu sitio fue hecho por otra agencia.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Proceso ===== -->
+    <section id="proceso" class="scroll-mt-24 bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <p class="reveal text-sm font-semibold uppercase tracking-widest text-indigo-600">Cómo trabajamos</p>
+          <h2 class="reveal mt-3 font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl" style="transition-delay:.05s">Un proceso simple y transparente</h2>
+          <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Cuatro pasos, de la idea a tu sitio en línea.</p>
+        </div>
+        <div class="process-wrap" data-render="process"></div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="scroll-mt-24 bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-14 max-w-2xl text-center">
+          <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Preguntas frecuentes</h2>
+          <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Resolvemos las dudas más comunes antes de empezar.</p>
+        </div>
+        <div class="faq-list mx-auto max-w-3xl space-y-4" data-render="faq"></div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="relative overflow-hidden bg-slate-950 py-20 lg:py-24">
+      <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+      <div class="absolute left-1/2 top-1/2 h-72 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-600/15 blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
+        <h2 class="mt-6 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">¿Listo para llevar tu negocio al siguiente nivel?</h2>
+        <p class="mt-4 text-lg text-slate-400">Cuéntanos tu idea y recibe una cotización sin compromiso en menos de 24 horas.</p>
+        <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+          <a class="wa-general inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-7 py-3.5 text-base font-semibold text-white transition hover:bg-[#1ebe5b]" href="#" target="_blank" rel="noopener noreferrer">
+            <svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg>
+            <span>Escríbenos por WhatsApp</span>
+          </a>
+          <a class="group inline-flex items-center justify-center gap-2.5 rounded-xl bg-indigo-600 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-indigo-500" href="#contacto">
+            <span>Solicitar cotización</span>
+            <span class="flex h-6 w-6 items-center justify-center rounded-full bg-white/15 text-white transition-all duration-300 group-hover:translate-x-1 group-hover:bg-white group-hover:text-indigo-700"><svg class="icon h-3.5 w-3.5"><use href="#icon-arrow-right" /></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section id="contacto" class="scroll-mt-24 bg-white py-20 lg:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-[1fr_1.1fr]">
+          <div>
+            <div class="max-w-xl">
+              <h2 class="reveal font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Hablemos de tu proyecto</h2>
+              <p class="reveal mt-4 text-lg text-slate-600" style="transition-delay:.1s">Completa el formulario o escríbenos directo por WhatsApp. Respondemos en menos de 24 horas.</p>
+            </div>
+            <div class="mt-8 space-y-4">
+              <div class="reveal flex items-start gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600"><svg class="icon"><use href="#icon-whatsapp" /></svg></span>
+                <div>
+                  <h3 class="font-display text-base font-semibold text-slate-900">WhatsApp</h3>
+                  <p class="mt-1 text-sm text-slate-600">Atención de lunes a viernes, de 9:00 a.m. a 5:00 p.m. (hora Perú).</p>
+                  <a class="wa-general group mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 transition hover:text-indigo-500" href="#" target="_blank" rel="noopener noreferrer">
+                    <span>WhatsApp</span>
+                    <span class="flex h-5 w-5 items-center justify-center rounded-full bg-indigo-100 text-indigo-600 transition-all duration-300 group-hover:translate-x-0.5 group-hover:bg-indigo-600 group-hover:text-white"><svg class="icon h-3 w-3"><use href="#icon-arrow-right" /></svg></span>
+                  </a>
+                </div>
+              </div>
+              <div class="reveal flex items-start gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm" style="transition-delay:.1s">
+                <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-indigo-100 text-indigo-600"><svg class="icon"><use href="#icon-chat" /></svg></span>
+                <div>
+                  <h3 class="font-display text-base font-semibold text-slate-900">Tiempo de respuesta</h3>
+                  <p class="mt-1 text-sm text-slate-600">Respondemos todas las solicitudes en menos de 24 horas hábiles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal" style="transition-delay:.15s">
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm sm:p-8">
+              <form id="contact-form" novalidate class="space-y-5">
+                <div class="grid gap-5 sm:grid-cols-2">
+                  <div class="form-field">
+                    <label for="f-name" class="mb-1.5 block text-sm font-medium text-slate-700">Nombre</label>
+                    <input id="f-name" name="name" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30" />
+                  </div>
+                  <div class="form-field">
+                    <label for="f-company" class="mb-1.5 block text-sm font-medium text-slate-700">Empresa / Negocio</label>
+                    <input id="f-company" name="company" type="text" autocomplete="organization" placeholder="Nombre de tu negocio (opcional)" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30" />
+                  </div>
+                  <div class="form-field">
+                    <label for="f-email" class="mb-1.5 block text-sm font-medium text-slate-700">Correo electrónico</label>
+                    <input id="f-email" name="email" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30" />
+                  </div>
+                  <div class="form-field">
+                    <label for="f-phone" class="mb-1.5 block text-sm font-medium text-slate-700">Teléfono / WhatsApp</label>
+                    <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+51 999 999 999" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30" />
+                  </div>
+                  <div class="form-field">
+                    <label for="f-service" class="mb-1.5 block text-sm font-medium text-slate-700">Servicio</label>
+                    <div class="relative">
+                      <select id="f-service" name="service" data-render="serviceSelect" class="w-full appearance-none rounded-xl border border-slate-300 bg-white px-4 py-2.5 pr-10 text-sm text-slate-900 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"></select>
+                      <svg class="icon pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"><use href="#icon-chevron-down" /></svg>
+                    </div>
+                  </div>
+                  <div class="form-field">
+                    <label for="f-budget" class="mb-1.5 block text-sm font-medium text-slate-700">Presupuesto estimado</label>
+                    <div class="relative">
+                      <select id="f-budget" name="budget" data-render="budgetSelect" class="w-full appearance-none rounded-xl border border-slate-300 bg-white px-4 py-2.5 pr-10 text-sm text-slate-900 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"></select>
+                      <svg class="icon pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"><use href="#icon-chevron-down" /></svg>
+                    </div>
+                  </div>
+                  <div class="form-field sm:col-span-2">
+                    <label for="f-message" class="mb-1.5 block text-sm font-medium text-slate-700">Cuéntanos de tu proyecto</label>
+                    <textarea id="f-message" name="message" rows="4" placeholder="Descríbenos tu idea, objetivos y cualquier detalle que quieras comentar." class="w-full resize-none rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="form-submit flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-indigo-500">
+                  <span>Enviar mensaje</span>
+                  <svg class="icon"><use href="#icon-send" /></svg>
+                </button>
+                <p class="form-error-hint hidden text-sm font-medium text-red-600">Por favor, revisa los campos marcados.</p>
+                <p class="form-sent hidden flex items-center gap-2 rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-700" role="status">
+                  <svg class="icon h-5 w-5 text-emerald-600"><use href="#icon-check-circle" /></svg>
+                  <span>¡Mensaje listo! Se abrió WhatsApp con tu mensaje.</span>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="border-t border-white/10 bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+        <div>
+          <a href="#inicio" class="flex items-center gap-2" aria-label="KittCodex">
+            <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600/15">
+              <img src="assets/img/logosf.png" alt="Logotipo de KittCodex" width="32" height="32" />
+            </span>
+            <span class="font-display text-xl font-bold tracking-tight text-white">Kitt<span class="text-indigo-400">Codex</span></span>
+          </a>
+          <p class="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">Diseñamos y desarrollamos experiencias web profesionales para ayudar a negocios a crecer.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="https://github.com/KittCodex" target="_blank" rel="noopener noreferrer" class="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-slate-400 transition hover:border-indigo-500 hover:text-indigo-400" aria-label="GitHub" title="GitHub"><svg class="icon icon--fill"><use href="#icon-github" /></svg></a>
+            <a href="https://www.instagram.com/kittcodex?igsh=amhvc2szemR0c2p0" target="_blank" rel="noopener noreferrer" class="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-slate-400 transition hover:border-indigo-500 hover:text-indigo-400" aria-label="Instagram" title="Instagram"><svg class="icon"><use href="#icon-instagram" /></svg></a>
+            <a href="https://www.tiktok.com/@kittcodex?is_from_webapp=1&amp;sender_device=pc" target="_blank" rel="noopener noreferrer" class="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-slate-400 transition hover:border-indigo-500 hover:text-indigo-400" aria-label="TikTok" title="TikTok"><svg class="icon icon--fill"><use href="#icon-tiktok" /></svg></a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Enlaces">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Navegación</h3>
+          <ul class="mt-4 space-y-2.5">
+            <li><a href="#inicio" class="text-sm text-slate-400 transition hover:text-white">Inicio</a></li>
+            <li><a href="#servicios" class="text-sm text-slate-400 transition hover:text-white">Servicios</a></li>
+            <li><a href="#proyectos" class="text-sm text-slate-400 transition hover:text-white">Proyectos</a></li>
+            <li><a href="#planes" class="text-sm text-slate-400 transition hover:text-white">Planes</a></li>
+            <li><a href="#proceso" class="text-sm text-slate-400 transition hover:text-white">Proceso</a></li>
+            <li><a href="#contacto" class="text-sm text-slate-400 transition hover:text-white">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Servicios</h3>
+          <ul class="mt-4 space-y-2.5" data-render="footerServices"></ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Contacto</h3>
+          <ul class="mt-4 space-y-2.5">
+            <li><a class="footer-contact wa-general inline-flex items-center gap-2 text-sm text-slate-400 transition hover:text-white" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg> WhatsApp</a></li>
+            <li><a class="footer-contact inline-flex items-center gap-2 text-sm text-slate-400 transition hover:text-white" href="https://mail.google.com/mail/?view=cm&amp;to=kittcodex@gmail.com" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#icon-mail" /></svg> kittcodex@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
+        <p class="text-sm text-slate-500">© 2026 KittCodex. Todos los derechos reservados.</p>
+        <div class="flex items-center gap-5 text-sm">
+          <a href="privacidad.html" class="text-slate-400 transition hover:text-white">Política de privacidad</a>
+          <a href="terminos.html" class="text-slate-400 transition hover:text-white">Términos y condiciones</a>
+        </div>
+      </div>
+      <p class="mt-8 text-center text-xs text-slate-600">Hecho con dedicación en Perú.</p>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp flotante ===== -->
+  <a class="wa-general group fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-emerald-950/40 transition hover:scale-105" href="#" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+    <span class="wa-ping" aria-hidden="true"></span>
+    <svg class="icon icon--fill h-7 w-7"><use href="#icon-whatsapp" /></svg>
+    <span class="wa-tooltip pointer-events-none absolute right-full mr-3 whitespace-nowrap rounded-lg bg-slate-900 px-3 py-1.5 text-xs font-medium text-white opacity-0 shadow-lg transition group-hover:opacity-100">Escríbenos por WhatsApp</span>
+  </a>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
