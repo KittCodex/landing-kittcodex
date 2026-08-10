@@ -114,11 +114,9 @@
       '<span class="ml-3 flex-1 truncate rounded-full bg-white/5 px-3 py-1 font-mono text-[10px] text-slate-500">kittcodex.com/landing</span>' +
       "</div>" +
       '<div class="space-y-6 p-8">' +
-      '<div class="flex flex-col items-center text-center">' +
-      '<span class="flex h-24 w-24 items-center justify-center rounded-3xl bg-gradient-to-br from-indigo-500/30 to-violet-500/30 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon h-10 w-10"><use href="#' + item.icon + '" /></svg></span>' +
-      '<p class="mt-6 h-3 w-3/4 rounded-full bg-white/10"></p>' +
-      '<p class="mt-2 h-3 w-1/2 rounded-full bg-white/5"></p>' +
-      "</div>" +
+      '<div class="overflow-hidden rounded-xl border border-white/10">' +
+      '<img src="assets/img/preview-landing.png" alt="Preview de una landing page de KittCodex" class="block h-44 w-full object-cover object-top" loading="lazy" />' +
+      '</div>' +
       '<div class="flex justify-center gap-2">' +
       '<span class="rounded-full bg-indigo-600 px-4 py-1.5 text-[10px] font-semibold text-white">Cotizar</span>' +
       '<span class="rounded-full border border-white/15 px-4 py-1.5 text-[10px] font-semibold text-slate-300">Ver planes</span>' +
