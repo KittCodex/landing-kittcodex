@@ -1,0 +1,13 @@
+{
+  "name": "landing-kittcodex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page de KittCodex",
+  "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.css -o ./assets/css/tailwind.css --minify",
+    "dev:css": "tailwindcss -i ./tailwind.css -o ./assets/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
