@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+
+  <title>Política de privacidad | KittCodex</title>
+  <meta name="description" content="Política de privacidad de KittCodex: qué datos recopilamos, cómo los usamos, tus derechos y cómo contactarnos." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="KittCodex" />
+  <link rel="canonical" href="https://kittcodex.com/privacidad.html" />
+
+  <!-- Tailwind CSS (compilado) -->
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body class="bg-slate-950 font-sans text-slate-200 antialiased">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ===== Sprite de íconos SVG ===== -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></symbol>
+    <symbol id="icon-folder" viewBox="0 0 24 24"><path d="M3 7.5a2 2 0 0 1 2-2h4.5l2 2H19a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="icon-edit" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-2.6-6.3L21 8"/><path d="M21 3v5h-5"/></symbol>
+    <symbol id="icon-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8L21.5 18.5l-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="icon-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a15 15 0 0 1 0 19 15 15 0 0 1 0-19z"/></symbol>
+    <symbol id="icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v5"/><path d="M12 7.5h.01"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M22 16.9v2.8a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.2 4.2 2 2 0 0 1 4.2 2H7a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.1a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 1.9z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M2.5 8l9.5 6 9.5-6"/></symbol>
+    <symbol id="icon-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.5 2.5 5.5-6"/></symbol>
+    <symbol id="icon-cat" viewBox="0 0 24 24"><path d="M8.6 4.6 6.1 1.6v3.9L3 3.1V7.6c0 4.9 3.9 8.4 9 8.4s9-3.5 9-8.4V3.1l-3.1 2.4v-3.9l-2.5 3c-1-.5-2.2-.7-3.5-.7s-2.5.2-3.3.7z"/></symbol>
+  </svg>
+
+  <!-- ===== Header ===== -->
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-2" aria-label="KittCodex — Inicio">
+        <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600/15">
+          <img src="assets/img/logosf.png" alt="Logotipo de KittCodex" width="32" height="32" />
+        </span>
+        <span class="font-display text-xl font-bold tracking-tight text-white">Kitt<span class="text-indigo-400">Codex</span></span>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm font-medium md:flex" aria-label="Principal">
+        <a href="index.html" class="text-slate-400 transition hover:text-white">Inicio</a>
+        <a href="index.html#servicios" class="text-slate-400 transition hover:text-white">Servicios</a>
+        <a href="index.html#planes" class="text-slate-400 transition hover:text-white">Planes</a>
+        <a href="index.html#contacto" class="text-slate-400 transition hover:text-white">Contacto</a>
+      </nav>
+      <a href="index.html" class="group inline-flex items-center gap-2.5 rounded-xl border border-white/15 px-4 py-2 text-sm font-semibold text-slate-200 transition hover:border-indigo-500 hover:bg-indigo-600 hover:text-white">
+        <span class="flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-slate-200 transition-all duration-300 group-hover:-translate-x-1 group-hover:bg-white group-hover:text-indigo-700"><svg class="icon h-3.5 w-3.5 rotate-180"><use href="#icon-arrow-right" /></svg></span>
+        <span>Volver al inicio</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== Hero ===== -->
+    <section class="relative overflow-hidden bg-slate-950 pb-20 pt-36">
+      <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+      <div class="absolute -top-24 left-1/2 h-80 w-[42rem] -translate-x-1/2 rounded-full bg-indigo-600/20 blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
+        <nav class="inline-flex items-center gap-2 text-sm text-slate-500" aria-label="Ruta">
+          <a href="index.html" class="transition hover:text-indigo-300">Inicio</a>
+          <span aria-hidden="true">/</span>
+          <span class="text-slate-300">Política de privacidad</span>
+        </nav>
+        <span class="mt-6 inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-200">
+          <svg class="icon"><use href="#icon-lock" /></svg>
+          Documento legal · KittCodex
+        </span>
+        <h1 class="mt-6 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Política de <span class="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">privacidad</span></h1>
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">Tu información es tuya. Te explicamos de forma clara qué datos recopilamos, para qué los usamos y cómo puedes ejercer tus derechos.</p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-slate-300"><span class="anim-blink h-1.5 w-1.5 rounded-full bg-emerald-400" aria-hidden="true"></span>Última actualización: 8 de agosto de 2026</span>
+          <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-slate-300"><svg class="icon"><use href="#icon-check-circle" /></svg>Lectura: 4 min</span>
+          <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-slate-300"><svg class="icon"><use href="#icon-shield" /></svg>No vendemos tus datos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contenido: sidebar + secciones ===== -->
+    <section class="bg-slate-950 pb-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-16">
+
+          <!-- Sidebar -->
+          <aside class="lg:sticky lg:top-28 lg:self-start">
+            <div class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-6 backdrop-blur">
+              <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-500">En esta página</h2>
+              <ol class="toc mt-4 space-y-1">
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-1"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">1</span>Responsable</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-2"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">2</span>Datos que recopilamos</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-3"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">3</span>Uso de la información</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-4"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">4</span>Almacenamiento</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-5"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">5</span>Servicios de terceros</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-6"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">6</span>Cookies</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-7"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">7</span>Tus derechos</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-8"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">8</span>Seguridad</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-9"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">9</span>Cambios</a></li>
+                <li><a class="toc-link flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-slate-400 transition hover:bg-white/5 hover:text-white" href="#sec-10"><span class="toc-num flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-white/5 text-[10px] font-bold text-slate-500">10</span>Contacto</a></li>
+              </ol>
+            </div>
+            <div class="reveal mt-6 rounded-2xl border border-indigo-500/30 bg-gradient-to-br from-indigo-600/15 to-violet-600/10 p-6" style="transition-delay:.1s">
+              <h2 class="font-display text-base font-bold text-white">¿Dudas sobre tus datos?</h2>
+              <p class="mt-2 text-sm leading-relaxed text-slate-400">Escríbenos y te respondemos en menos de 24 horas hábiles.</p>
+              <a class="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#25D366] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#1ebe5b]" href="https://wa.me/51999999999?text=Hola%20KittCodex%2C%20tengo%20una%20duda%20sobre%20la%20pol%C3%ADtica%20de%20privacidad." target="_blank" rel="noopener noreferrer">
+                <svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg>
+                <span>Consultar</span>
+              </a>
+              <a class="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/15 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10" href="https://mail.google.com/mail/?view=cm&amp;to=kittcodex@gmail.com" target="_blank" rel="noopener noreferrer">
+                <svg class="icon"><use href="#icon-mail" /></svg>
+                <span>hola@kittcodex.com</span>
+              </a>
+            </div>
+          </aside>
+
+          <!-- Secciones -->
+          <div class="min-w-0">
+            <div class="space-y-6">
+
+              <!-- 1. Responsable -->
+              <article id="sec-1" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-folder" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 01</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Responsable del tratamiento</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">El responsable del tratamiento de tus datos personales es <strong class="font-semibold text-white">KittCodex</strong>, con sede en Perú. Puedes contactarnos en cualquier momento a través de los canales indicados en la sección de contacto.</p>
+              </article>
+
+              <!-- 2. Datos -->
+              <article id="sec-2" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-300 ring-1 ring-emerald-400/30"><svg class="icon"><use href="#icon-edit" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-emerald-400">Sección 02</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Datos que recopilamos</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">Solo recopilamos la información que nos compartes voluntariamente, a través del formulario de contacto o por WhatsApp:</p>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Nombre y, si lo indicas, el nombre de tu empresa.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Correo electrónico y número de teléfono.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">El servicio de tu interés y tu rango de presupuesto.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">El mensaje o descripción de tu proyecto.</p></li>
+                </ul>
+              </article>
+
+              <!-- 3. Uso -->
+              <article id="sec-3" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-check-circle" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 03</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Uso de la información</h2>
+                  </div>
+                </div>
+                <ul class="mt-7 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Responder tus consultas y preparar tu cotización.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Gestionar tu proyecto si decides contratar nuestros servicios.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Brindarte soporte durante y después del desarrollo.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Enviarte información relevante solo si tú nos autorizas.</p></li>
+                </ul>
+                <div class="mt-6 rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-5">
+                  <p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-emerald-300">Compromiso:</strong> nunca vendemos ni alquilamos tus datos personales a terceros.</p>
+                </div>
+              </article>
+
+              <!-- 4. Almacenamiento -->
+              <article id="sec-4" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-server" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 04</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Almacenamiento y transferencia</h2>
+                  </div>
+                </div>
+                <ul class="mt-7 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">La información de contacto se comparte por WhatsApp o correo para responder tu solicitud.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Mantenemos tus datos solo durante el tiempo necesario para el proyecto y la garantía.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Puedes pedir la eliminación de tus datos en cualquier momento.</p></li>
+                </ul>
+              </article>
+
+              <!-- 5. Terceros -->
+              <article id="sec-5" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-globe" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 05</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Servicios de terceros</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">Nuestro sitio utiliza servicios de terceros para su funcionamiento. Cada uno gestiona tus datos según su propia política de privacidad:</p>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">Google Fonts</strong> y <strong class="font-semibold text-white">CDN de Tailwind</strong>: cargan los estilos y tipografías del sitio.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">WhatsApp</strong>: canal de contacto para responder tus consultas.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Los enlaces a redes sociales te llevan a plataformas externas con sus propias políticas.</p></li>
+                </ul>
+              </article>
+
+              <!-- 6. Cookies -->
+              <article id="sec-6" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-info" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 06</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Cookies</h2>
+                  </div>
+                </div>
+                <ul class="mt-7 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Nuestras páginas no instalan cookies de seguimiento ni publicidad.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Los servicios de terceros (como Google Fonts) pueden establecer cookies técnicas propias.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Puedes bloquear las cookies desde la configuración de tu navegador.</p></li>
+                </ul>
+              </article>
+
+              <!-- 7. Derechos -->
+              <article id="sec-7" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-300 ring-1 ring-emerald-400/30"><svg class="icon"><use href="#icon-lock" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-emerald-400">Sección 07</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Tus derechos</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">Según la <strong class="font-semibold text-white">Ley N° 29733 (Ley de Protección de Datos Personales, Perú)</strong>, puedes ejercer en cualquier momento los derechos ARCO:</p>
+                <ul class="mt-6 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">Acceso</strong>: conocer qué datos tuyos tenemos.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">Rectificación</strong>: corregir datos inexactos o incompletos.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">Cancelación</strong>: solicitar la eliminación de tus datos.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300"><strong class="font-semibold text-white">Oposición</strong>: pedir que dejemos de usar tus datos.</p></li>
+                </ul>
+                <div class="mt-6 rounded-xl border border-indigo-400/30 bg-indigo-500/10 p-5">
+                  <p class="text-sm leading-relaxed text-slate-300">Para ejercer cualquiera de estos derechos, escríbenos a <strong class="font-semibold text-indigo-300">hola@kittcodex.com</strong> y lo gestionamos sin costo.</p>
+                </div>
+              </article>
+
+              <!-- 8. Seguridad -->
+              <article id="sec-8" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-shield" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 08</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Seguridad</h2>
+                  </div>
+                </div>
+                <ul class="mt-7 space-y-3">
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Accedemos a tus datos solo para atender tu solicitud.</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">Nuestros sitios se sirven con conexiones seguras (SSL/HTTPS).</p></li>
+                  <li class="flex items-start gap-3"><span class="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400"><svg class="icon h-3.5 w-3.5"><use href="#icon-check" /></svg></span><p class="text-sm leading-relaxed text-slate-300">No almacenamos datos de tarjetas ni información financiera sensible.</p></li>
+                </ul>
+              </article>
+
+              <!-- 9. Cambios -->
+              <article id="sec-9" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-indigo-300 ring-1 ring-indigo-400/30"><svg class="icon"><use href="#icon-refresh" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400">Sección 09</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Cambios a esta política</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">Podemos actualizar esta política de vez en cuando. Cuando lo hagamos, actualizaremos la fecha al inicio de la página. Te recomendamos revisarla periódicamente para estar al tanto de cualquier cambio.</p>
+              </article>
+
+              <!-- 10. Contacto -->
+              <article id="sec-10" class="reveal rounded-2xl border border-white/10 bg-slate-900/70 p-8 transition hover:border-white/20 sm:p-10">
+                <div class="flex items-center gap-4">
+                  <span class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-300 ring-1 ring-emerald-400/30"><svg class="icon"><use href="#icon-phone" /></svg></span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-emerald-400">Sección 10</p>
+                    <h2 class="font-display text-2xl font-bold text-white">Contacto</h2>
+                  </div>
+                </div>
+                <p class="mt-6 text-sm leading-relaxed text-slate-400">Para cualquier consulta sobre tu privacidad o para ejercer tus derechos, contáctanos por cualquiera de estos canales:</p>
+                <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+                  <a class="group inline-flex items-center justify-center gap-2.5 rounded-xl bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#1ebe5b]" href="https://wa.me/51999999999?text=Hola%20KittCodex%2C%20tengo%20una%20consulta%20sobre%20privacidad." target="_blank" rel="noopener noreferrer">
+                    <svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg>
+                    <span>WhatsApp</span>
+                  </a>
+                  <a class="group inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10" href="https://mail.google.com/mail/?view=cm&amp;to=kittcodex@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon"><use href="#icon-mail" /></svg>
+                    <span>hola@kittcodex.com</span>
+                  </a>
+                </div>
+              </article>
+
+            </div>
+
+            <!-- CTA final -->
+            <div class="reveal relative mt-10 overflow-hidden rounded-3xl bg-slate-950 p-10 text-center ring-1 ring-indigo-500/40">
+              <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+              <div class="absolute -top-16 left-1/2 h-56 w-96 -translate-x-1/2 rounded-full bg-indigo-600/25 blur-3xl" aria-hidden="true"></div>
+              <div class="relative">
+                <h2 class="font-display text-3xl font-bold text-white">Tu información siempre protegida</h2>
+                <p class="mx-auto mt-3 max-w-xl text-sm text-slate-400">Trabajamos con transparencia y respeto por tus datos personales.</p>
+                <div class="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
+                  <a class="group inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-7 py-3.5 text-base font-semibold text-white transition hover:bg-[#1ebe5b]" href="https://wa.me/51999999999?text=Hola%20KittCodex%2C%20quiero%20cotizar%20una%20landing%20page%20para%20mi%20negocio." target="_blank" rel="noopener noreferrer">
+                    <svg class="icon icon--fill"><use href="#icon-whatsapp" /></svg>
+                    <span>Cotizar por WhatsApp</span>
+                  </a>
+                  <a class="group inline-flex items-center justify-center gap-2 rounded-xl border border-white/15 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-white/10" href="index.html#planes">
+                    <span>Ver planes</span>
+                    <span class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600/10 text-indigo-300 transition-all duration-300 group-hover:translate-x-1 group-hover:bg-indigo-600 group-hover:text-white"><svg class="icon h-3.5 w-3.5"><use href="#icon-arrow-right" /></svg></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="border-t border-white/10 bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+        <a href="index.html" class="flex items-center gap-2" aria-label="KittCodex — Inicio">
+          <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600/15">
+            <img src="assets/img/logosf.png" alt="Logotipo de KittCodex" width="32" height="32" />
+          </span>
+          <span class="font-display text-xl font-bold tracking-tight text-white">Kitt<span class="text-indigo-400">Codex</span></span>
+        </a>
+        <p class="text-center text-sm text-slate-500">© 2026 KittCodex. Todos los derechos reservados.</p>
+        <div class="flex items-center gap-5 text-sm">
+          <a href="privacidad.html" class="text-slate-400 transition hover:text-white">Política de privacidad</a>
+          <a href="terminos.html" class="text-slate-400 transition hover:text-white">Términos</a>
+          <a href="index.html" class="group inline-flex items-center gap-1.5 text-slate-400 transition hover:text-white">Volver al inicio<span class="flex h-5 w-5 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all duration-300 group-hover:translate-x-0.5 group-hover:bg-indigo-600 group-hover:text-white"><svg class="icon h-3 w-3"><use href="#icon-arrow-right" /></svg></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp flotante ===== -->
+  <a class="group fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-emerald-950/40 transition hover:scale-105" href="https://wa.me/51999999999?text=Hola%20KittCodex%2C%20tengo%20una%20duda%20sobre%20la%20pol%C3%ADtica%20de%20privacidad." target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+    <span class="wa-ping" aria-hidden="true"></span>
+    <svg class="icon icon--fill h-7 w-7"><use href="#icon-whatsapp" /></svg>
+    <span class="pointer-events-none absolute right-full mr-3 whitespace-nowrap rounded-lg bg-slate-900 px-3 py-1.5 text-xs font-medium text-white opacity-0 shadow-lg transition group-hover:opacity-100">¿Dudas? Escríbenos</span>
+  </a>
+
+  <script src="assets/js/config.js"></script>
+  <script>
+    (function () {
+      var revealEls = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+        revealEls.forEach(function (el) { io.observe(el); });
+      } else {
+        revealEls.forEach(function (el) { el.classList.add("is-visible"); });
+      }
+
+      var tocLinks = document.querySelectorAll(".toc-link");
+      var sections = document.querySelectorAll("main article[id^=sec-]");
+      if (tocLinks.length && sections.length) {
+        var setActive = function (id) {
+          tocLinks.forEach(function (link) {
+            var active = link.getAttribute("href") === "#" + id;
+            link.classList.toggle("bg-indigo-600/15", active);
+            link.classList.toggle("text-indigo-300", active);
+            link.classList.toggle("text-slate-400", !active);
+            link.querySelector(".toc-num")?.classList.toggle("bg-indigo-600", active);
+            link.querySelector(".toc-num")?.classList.toggle("text-white", active);
+            link.querySelector(".toc-num")?.classList.toggle("text-slate-500", !active);
+          });
+        };
+        var spy = function () {
+          var offset = 140;
+          var current = "";
+          sections.forEach(function (sec) {
+            if (window.scrollY + offset >= sec.offsetTop) current = sec.id;
+          });
+          if (current) setActive(current);
+        };
+        window.addEventListener("scroll", spy, { passive: true });
+        window.addEventListener("resize", spy);
+        spy();
+      }
+    })();
+  </script>
+</body>
+</html>
