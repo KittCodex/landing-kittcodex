@@ -23,7 +23,7 @@ const DATA = {
         "Diseño responsive"
       ],
       cta: "Cotizar landing page",
-      path: "kittcodex.com/landing"
+      path: "kittcodex.com"
     }
   ],
 

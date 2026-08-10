@@ -111,7 +111,7 @@
       '<span class="h-2.5 w-2.5 rounded-full bg-red-500/80" aria-hidden="true"></span>' +
       '<span class="h-2.5 w-2.5 rounded-full bg-yellow-500/80" aria-hidden="true"></span>' +
       '<span class="h-2.5 w-2.5 rounded-full bg-emerald-500/80" aria-hidden="true"></span>' +
-      '<span class="ml-3 flex-1 truncate rounded-full bg-white/5 px-3 py-1 font-mono text-[10px] text-slate-500">kittcodex.com/landing</span>' +
+      '<span class="ml-3 flex-1 truncate rounded-full bg-white/5 px-3 py-1 font-mono text-[10px] text-slate-500">kittcodex.com</span>' +
       "</div>" +
       '<div class="space-y-6 p-8">' +
       '<div class="overflow-hidden rounded-xl border border-white/10">' +
